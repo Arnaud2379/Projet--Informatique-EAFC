@@ -1,6 +1,5 @@
 
-def calcul_prix_ttc(HTVA , TVA):
-    TVA = 21/100
-    return HTVA*TVA
-print(calcul_prix_ttc(20.7, 0)) 
+def calcul_prix_ttc(HTVA , TVA = 21):
+    return HTVA*(1+TVA/100)
+print(calcul_prix_ttc(20.7)) 
 print(calcul_prix_ttc(20.7 , 6)) 
