@@ -78,3 +78,37 @@ def simulation_interactive_flambage():
 
 if __name__ == "__main__":
     simulation_interactive_flambage()
+    
+    
+    
+    
+    
+
+# Test 1 : Colonne stable
+
+# Entre :
+
+# Longueur L = 3
+# Module de Young E = 210e9
+# Diamètre = 0.08
+# Charge appliquée = 50000
+
+
+# Test 2 : Proche du flambage
+
+# Entre :
+
+# Longueur L = 5
+# Module de Young E = 210e9
+# Diamètre = 0.05
+# Charge appliquée = 90000
+
+
+# Test 3 : Dépassement de la charge critique
+
+# Entre :
+
+# Longueur L = 5
+# Module de Young E = 210e9
+# Diamètre = 0.05
+# Charge appliquée = 120000
